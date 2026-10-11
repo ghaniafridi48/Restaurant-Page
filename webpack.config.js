@@ -18,4 +18,13 @@ export default {
       template: "./src/template.html", // Links your HTML skeleton
     }),
   ],
+  module: {
+    rules: [
+      {
+        test: /\.css$/i,
+        use: ["style-loader", "css-loader"],
+      },
+    ],
+  },
 };
+
