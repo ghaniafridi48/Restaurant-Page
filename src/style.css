@@ -64,6 +64,7 @@ nav button{
 
 .menu{
     background-color: rgb(78, 67, 67);
+    min-height: 100vh;
 }
 .cards{
     margin-top: 12px;
